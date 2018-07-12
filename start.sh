@@ -1,7 +1,7 @@
 #!/bin/sh
 while true
 do
-echo "`hostname`: `date`" >> /var/lib/mysql/hehe.txt
+echo "`hostname`: `date`" >> hehe.txt
 sleep 60
-ls -l /var/lib/mysql/hehe.txt
+ls -l hehe.txt
 done
